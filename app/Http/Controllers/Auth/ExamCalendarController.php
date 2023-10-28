@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Auth;
 
-use App\Models\teacher;
+use App\Http\Controllers\Controller;
+use App\Models\ExamCalendar;
 use Illuminate\Http\Request;
 
-class TeacherController extends Controller
+class ExamCalendarController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +42,10 @@ class TeacherController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\teacher  $teacher
+     * @param  \App\Models\ExamCalendar  $examCalendar
      * @return \Illuminate\Http\Response
      */
-    public function show(teacher $teacher)
+    public function show(ExamCalendar $examCalendar)
     {
         //
     }
@@ -52,10 +53,10 @@ class TeacherController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\teacher  $teacher
+     * @param  \App\Models\ExamCalendar  $examCalendar
      * @return \Illuminate\Http\Response
      */
-    public function edit(teacher $teacher)
+    public function edit(ExamCalendar $examCalendar)
     {
         //
     }
@@ -64,10 +65,10 @@ class TeacherController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\teacher  $teacher
+     * @param  \App\Models\ExamCalendar  $examCalendar
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, teacher $teacher)
+    public function update(Request $request, ExamCalendar $examCalendar)
     {
         //
     }
@@ -75,10 +76,10 @@ class TeacherController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\teacher  $teacher
+     * @param  \App\Models\ExamCalendar  $examCalendar
      * @return \Illuminate\Http\Response
      */
-    public function destroy(teacher $teacher)
+    public function destroy(ExamCalendar $examCalendar)
     {
         //
     }

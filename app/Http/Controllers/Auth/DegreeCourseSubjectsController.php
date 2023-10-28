@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Models\secretary;
+use App\Models\DegreeCourseSubjects;
 use Illuminate\Http\Request;
 
-class SecretaryController extends Controller
+class DegreeCourseSubjectsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class SecretaryController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\secretary  $secretary
+     * @param  \App\Models\DegreeCourseSubjects  $degreeCourseSubjects
      * @return \Illuminate\Http\Response
      */
-    public function show(secretary $secretary)
+    public function show(DegreeCourseSubjects $degreeCourseSubjects)
     {
         //
     }
@@ -53,10 +53,10 @@ class SecretaryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\secretary  $secretary
+     * @param  \App\Models\DegreeCourseSubjects  $degreeCourseSubjects
      * @return \Illuminate\Http\Response
      */
-    public function edit(secretary $secretary)
+    public function edit(DegreeCourseSubjects $degreeCourseSubjects)
     {
         //
     }
@@ -65,10 +65,10 @@ class SecretaryController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\secretary  $secretary
+     * @param  \App\Models\DegreeCourseSubjects  $degreeCourseSubjects
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, secretary $secretary)
+    public function update(Request $request, DegreeCourseSubjects $degreeCourseSubjects)
     {
         //
     }
@@ -76,10 +76,10 @@ class SecretaryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\secretary  $secretary
+     * @param  \App\Models\DegreeCourseSubjects  $degreeCourseSubjects
      * @return \Illuminate\Http\Response
      */
-    public function destroy(secretary $secretary)
+    public function destroy(DegreeCourseSubjects $degreeCourseSubjects)
     {
         //
     }
